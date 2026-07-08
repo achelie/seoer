@@ -1,32 +1,47 @@
 ---
 name: blog-cover
-description: Generate polished pastel SaaS and SEO blog cover images, especially Gumloop-inspired editorial covers for AI tools, SaaS alternatives, pricing, comparison, migration, developer workflow, customer support, SEO, meeting notes, voice, avatar, and project-management articles. Use when the user asks for a blog/article cover, Open Graph image, Gumloop-style image, or non-repetitive generated cover.
+description: Generate polished Mac-style pastel SaaS and SEO blog cover images for AI tools, SaaS alternatives, pricing, comparison, migration, developer workflow, customer support, SEO, meeting notes, voice, avatar, and project-management articles. Use when the user asks for a blog/article cover, Open Graph image, Mac-style pastel SaaS image, official favicon-style nodes, or non-repetitive generated cover.
 ---
 
 # Blog Cover
 
-Create production-ready raster blog covers. The default target is a 1200x630 Open Graph image with pastel gradient mesh, dotted halftone texture, floating UI cards, app/workflow nodes, and clean SaaS editorial composition.
+Create production-ready raster blog covers. The default target is a 1200x630 Open Graph image with a Mac-style pastel SaaS look: soft gradient mesh, dotted halftone texture, floating white glass cards, real official favicon-style nodes, bold decision cards, dotted arrows, and clean editorial composition.
 
-This skill is a public, renamed version of the user's local `gumloop-blog-cover` skill. Use `$blog-cover` as the public skill name.
+Use `$blog-cover` as the public skill name.
 
 ## Visual Language
 
 Use this baseline style unless the user gives stronger project rules:
 
-- Pastel macaron gradient mesh: pink, coral, peach, yellow, lavender, mint, or sky blue.
+- Mac-style pastel gradient mesh: pink, coral, peach, warm yellow, pale purple, mint, and sky blue blended softly.
 - Fine dotted halftone texture across the full background.
-- Rounded white UI cards with soft shadows, glass highlights, pills, and connector lines.
-- Small favicon-style app nodes when relevant, kept secondary and not copied as full product UI.
-- One clear decision motif: savings, workflow route, migration checklist, usage meter, support queue, code flow, voice stack, or SEO report packet.
-- Clean, playful, modern SaaS editorial feel with generous empty space.
+- Large rounded white or off-white glass cards with soft shadows, subtle bevels, and clear hierarchy.
+- Bold readable headline or metric cards, such as price, savings, limit, rank, or status. Only use exact numbers the article verified.
+- Real official favicon-style brand nodes are allowed when relevant. Keep them small, contextual, and secondary. Do not recreate full logos as the main subject.
+- Dotted arrows, dashed connector routes, pill labels, and small circular utility icons.
+- A small abstract black agent/blob mark is allowed when it supports the composition, but it must stay secondary.
+- Clean, playful, modern Mac-like SaaS editorial feel with generous empty space.
 
 Avoid:
 
-- Real third-party logos unless the user explicitly permits them.
+- Large third-party logos as the hero subject. Small official favicon-style nodes are allowed.
 - Trademarked product UI copied from screenshots.
 - Dark heavy palettes, generic purple-only gradients, stock photos, people, watermarks.
 - Long titles or tiny paragraphs inside the image.
 - Reusing the same card positions, connector path, and label row from the previous cover.
+
+## Style Lock
+
+Keep future outputs close to the reference quality bar:
+
+- Rounded 1200x630 social-card composition with a soft pink-orange-blue pastel background.
+- Smooth Mac-like glass cards, large corner radius, soft drop shadow, and crisp black or green/red typography.
+- One dominant decision panel on each side or a strong diagonal/cascade decision path.
+- Clear labels that remain readable at social-card size.
+- Official favicon-style nodes can appear in small rounded squares or circular badges.
+- Dotted connector arrows and small icon pills should guide the eye without making the image busy.
+
+Do not treat every skill update as permission to change the art direction. Improve prompt specificity, topic motifs, or composition variety while preserving this Mac-style pastel SaaS baseline.
 
 ## Similarity Guard
 
@@ -73,25 +88,25 @@ If the previous cover used left-card/right-card/bottom-pill-row, explicitly forb
 ```text
 Use case: ads-marketing
 Asset type: 1200x630 blog article cover
-Primary request: Create a pastel editorial SaaS cover image for an article titled "<title>".
+Primary request: Create a Mac-style pastel SaaS cover image for an article titled "<title>".
 
 Scene/backdrop:
-A soft pastel gradient mesh with subtle dotted halftone texture across the full canvas.
+A soft pink-orange-blue pastel gradient mesh with subtle dotted halftone texture across the full canvas.
 
 Subject:
-Visualize <topic> using abstract SaaS UI elements, small app/workflow nodes, rounded cards, connector lines, and short labels.
+Visualize <topic> using large rounded white glass cards, bold decision metrics, dotted connector arrows, official favicon-style nodes where relevant, small workflow pills, and short labels.
 
 Composition/framing:
 Landscape 1200:630 ratio. Choose <composition family>. Keep generous empty space. Avoid the last cover's structure.
 
 Style/medium:
-Polished 2D/3D hybrid SaaS blog illustration, soft shadows, crisp iconography, playful but clean.
+Mac-style polished 2D/3D hybrid SaaS blog illustration, soft shadows, crisp iconography, playful but clean.
 
 Text (verbatim):
 "<short exact text>"
 
 Constraints:
-No real company logos, no copied product UI, no watermarks, no photorealistic people, no tiny paragraphs. Text must be legible at social-card size.
+Small official favicon-style brand nodes are allowed. No large brand logos as the hero subject, no copied product UI, no watermarks, no photorealistic people, no tiny paragraphs. Text must be legible at social-card size.
 ```
 
 ## Checks

@@ -11,7 +11,7 @@
 - 生成高质量 blog 封面图
 - 提交、部署、验证上线和可索引状态
 
-仓库结构参考 `baoyu-skills`：每个 skill 都放在 `skills/<skill-name>/SKILL.md`，可以整包安装，也可以单独复制某个 skill 到项目中使用。
+每个 skill 都放在 `skills/<skill-name>/SKILL.md`，可以整包安装，也可以单独复制某个 skill 到项目中使用。
 
 ## 安装
 
@@ -100,7 +100,7 @@ Use $srt-to-game-guide-publisher on this folder. The SRT is the main source, all
 
 ![粉彩编辑风 blog 封面流程](./screenshots/blog-cover.png)
 
-用于生成 Gumloop 风格的粉彩 SaaS 封面图，也适合 SEO 文章的 Open Graph 图。
+用于生成 Mac 风格的粉彩 SaaS 封面图，也适合 SEO 文章的 Open Graph 图。
 
 适合：
 

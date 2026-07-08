@@ -11,7 +11,7 @@ It packages four repeatable workflows:
 - generating polished blog cover images
 - shipping site changes with deployment and indexability checks
 
-The repository follows a multi-skill layout inspired by `baoyu-skills`: every skill lives under `skills/<skill-name>/SKILL.md`, and each skill can be copied or installed independently.
+Every skill lives under `skills/<skill-name>/SKILL.md`, and each skill can be copied or installed independently.
 
 ## Installation
 
@@ -100,7 +100,7 @@ Use $srt-to-game-guide-publisher on this folder. The SRT is the main source, all
 
 ![Pastel editorial blog cover workflow](./screenshots/blog-cover.png)
 
-Use this for Gumloop-inspired pastel covers and other SaaS/SEO editorial Open Graph images.
+Use this for Mac-style pastel SaaS covers and other SEO editorial Open Graph images.
 
 Good for:
 
