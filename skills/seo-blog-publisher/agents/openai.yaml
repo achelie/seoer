@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Blog Publisher"
+  short_description: "Produce and ship SEO blog articles with evidence."
+  default_prompt: "Use $seo-blog-publisher to create and publish this SEO article."

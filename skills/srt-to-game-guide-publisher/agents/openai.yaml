@@ -1,0 +1,4 @@
+interface:
+  display_name: "SRT Game Guide Publisher"
+  short_description: "Turn SRT and game assets into published guides."
+  default_prompt: "Use $srt-to-game-guide-publisher to turn this SRT folder into a game guide."

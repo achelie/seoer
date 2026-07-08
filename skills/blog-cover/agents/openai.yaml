@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blog Cover"
+  short_description: "Generate polished SaaS and SEO blog cover images."
+  default_prompt: "Use $blog-cover to generate a blog cover for this article."

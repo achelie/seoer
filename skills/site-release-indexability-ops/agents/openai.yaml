@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site Release & Indexability Ops"
+  short_description: "Release, deploy, and verify SEO-critical sites."
+  default_prompt: "Use $site-release-indexability-ops to publish this site change and verify indexability."
